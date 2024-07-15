@@ -27,7 +27,8 @@
 	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Nishit Joshi</a>
+	      <p><a class="navbar-brand" href="index.html">Nishit Joshi</a>
+		  Software Engineer</p>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -42,11 +43,11 @@
 	          <!-- <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
 	          <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li> -->
 	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-			  <!-- <p>   
-				<audio id="audio" autoplay="false" src='audio/summer-walk-152722.mp3'>
+			  <p>   
+				<!-- <audio id="audio" autoplay="false" src='audio/summer-walk-152722.mp3'>
 				</audio>
-				<button class="btn btn-primary pt-2" onclick={soundPlay()}>Music On</button>
-			</p> -->
+				<button class="btn btn-primary pt-2" onclick={soundPlay()}>Music On</button> -->
+			</p>
 
 	        </ul>
 			
@@ -61,14 +62,27 @@
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
 	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.png);">
 	          		<div class="overlay"></div>
+				
 	          	</div>
+				
+
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 		          	<div class="text">
-		          		<span class="subheading">Hello!</span>
+						<div class="flex-container">
+							<p><a  href="#about-section" class="btn btn-primary py-3 px-4">About ME</a></p>
+							<p><a  href="#resume-section" class="btn btn-primary py-3 px-4">Education</a></p>
+							<p><a  href="#service-section" class="btn btn-primary py-3 px-4">Projects</a></p>
+							<p><a  href="#contact-section" class="btn btn-primary py-3 px-4">Contact ME</a></p>
+
+	
+					</div>
+		          		<!-- <span class="subheading">Hello!</span>
 			            <h1 class="mb-4 mt-3">I'm <span>Nishit Joshi</span></h1>
-			            <h2 class="mb-4">Software Engineer</h2>
-			            <p><a href="#" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
-						              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+			            <h2 class="mb-4">Software Engineer</h2> -->
+			            <!-- <p><a href="#" class="btn btn-primary py-3 px-4">Hire me</a> 
+							<a href="#" class="btn btn-white btn-outline-white py-3 px-4">My works</a>
+						</p> -->
+				<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
@@ -723,7 +737,7 @@
   <script>
 	function soundPlay(){
 		var sound = document.getElementById("audio")
-		sound.play()
+		// sound.play()
 	}
 
   </script>
